@@ -1,0 +1,45 @@
+body{
+    font-family: "Inter", sans-serif;
+}
+
+/* Navbar Section Start */
+
+.navbar-brand{
+    font-family: "Akaya Telivigala", system-ui;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.navbar ul li{
+    font-size: 20px;
+}
+
+.dropdown-menu[data-bs-popper]{
+    left: -125px;
+}
+
+.navbar ul li a:hover, .dropdown-menu li a:hover{
+    color: white !important;
+    background: blue;
+    font-weight: 600;
+}
+
+.icon{
+    display: block;
+    margin-left: 20px;
+}
+
+.icon i{
+    padding: 9px 10px;
+    font-size: 20px;
+    border-radius: 7%;
+    margin: 0px 5px;
+}
+
+.icon i:hover{
+    color: white;
+    background: blue;
+}
+
+/* Navbar Section End */
+
