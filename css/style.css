@@ -14,6 +14,10 @@ body{
     font-size: 20px;
 }
 
+.nav-item{
+    margin: 0px 8px;
+}
+
 .dropdown-menu[data-bs-popper]{
     left: -125px;
 }
@@ -21,7 +25,6 @@ body{
 .navbar ul li a:hover, .dropdown-menu li a:hover{
     color: white !important;
     background: blue;
-    font-weight: 600;
 }
 
 .icon{
@@ -43,3 +46,19 @@ body{
 
 /* Navbar Section End */
 
+/* Banner Section Start */
+.banner{
+    height: calc(100vh - 70px);
+}
+
+.slide,.carousel-inner,
+.carousel-item{
+    height: 100%;
+}
+
+.carousel-item>img {
+  height: 100%;
+  width: 100%;
+}
+
+/* Banner Section End */
