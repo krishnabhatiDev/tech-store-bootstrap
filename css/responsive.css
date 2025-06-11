@@ -1,15 +1,25 @@
-@media only screen and (min-width:991px){
+@media only screen and (min-width:991px) {
 
     /* Navbar  */
-    nav ul li a{
+    nav ul li a {
         border-radius: 7%;
     }
 }
 
-@media only screen and (max-width:991px){
+@media only screen and (max-width:991px) {
 
     /* Icon */
     .icon {
         display: none !important;
     }
+
+    /* Banner */
+    .banner {
+        height: calc(100vh - 250px);
+    }
+
+    .card-img {
+        height: 300px;
+    }
+
 }

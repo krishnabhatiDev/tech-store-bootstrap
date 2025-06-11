@@ -21,6 +21,10 @@
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+  <!-- AOS CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+
   <!-- Main Css file -->
   <link rel="stylesheet" href="css/style.css">
 
@@ -34,7 +38,7 @@
 
   <header class="container-fluid bg-white shadow sticky-top top-0 p-0">
     <!-- Navbar Section Start -->
-    <nav class="navbar navbar-expand-lg bg-body-white py-0 align-content-center">
+    <nav class="navbar navbar-expand-lg bg-body-white py-0 align-content-center" data-aos="fade-down">
       <div class="container-fluid">
         <a class="navbar-brand ms-5" href="#">Tech Store</a>
         <button class="navbar-toggler px-2 border-black border-2" type="button" data-bs-toggle="collapse"
@@ -83,28 +87,114 @@
 
   <section class="container-fluid p-0">
     <!-- Banner Section Start -->
-    <div class="container-fluid banner p-0">
+    <div class="container-fluid banner p-0" data-aos="fade-right">
       <div id="carouselSlides" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="https://image-us.samsung.com/us/smartphones/galaxy-s25-ultra/images/galaxy-s25-ultra-features-kv.jpg?imbypass=true" class="d-block w-100" alt="Samsung S25 Ultra">
+            <img
+              src="https://image-us.samsung.com/us/smartphones/galaxy-s25-ultra/images/galaxy-s25-ultra-features-kv.jpg?imbypass=true"
+              class="d-block w-100" alt="Samsung S25 Ultra">
           </div>
           <div class="carousel-item">
-            <img src="images/iphone.jpg" class="d-block w-100" alt="Iphone">
+            <img
+              src="https://images.samsung.com/is/image/samsung/assets/in/mobile/25_01/Galaxy_ZFold6_Main-KV_1440x640_normalKV_pc.jpg?"
+              class="d-block w-100" alt="Samsung Galaxy ZFold6">
           </div>
           <div class="carousel-item">
-            <img src="images/ipad.jpg" class="d-block w-100" alt="Ipad">
+            <img
+              src="//images.samsung.com/is/image/samsung/assets/in/mobile/25_01/Galaxy_WatchUltra_1440x640_normalKV_pc.jpg?"
+              class="d-block w-100" alt="Galaxy Watch">
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.samsung.com/is/image/samsung/assets/in/mobile/25_01/Galaxy_TabS10Ultra_Main-KV_1440x640_normalKV_pc.jpg?"
+              alt="Galaxy Tab">
+          </div>
+          <div class="carousel-item">
+            <img
+              src="//images.samsung.com/is/image/samsung/assets/in/mobile/25_01/Galaxy_Buds3Pro_1440x640_normalKV_pc.jpg?"
+              alt="Buds Pro">
           </div>
         </div>
       </div>
     </div>
     <!-- Banner Section End -->
-    
+
+    <!-- Product Card Section Start -->
+
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-12">
+          <h2>Featured Products</h2>
+          <p class="text-mu3 fs-5">Explore our latest arrivals</p>
+        </div>
+      </div>  
+      <div class="row gy-5 justify-content-around ">
+        <div class="col-lg-3 col-sm-5 col-12">
+          <a href="mobile.html">
+            <div class="card" data-aos="zoom-in" data-aos-delay="100">
+              <div class="card-img">
+                <img
+                  src="https://imgs.search.brave.com/MpFBmJFfLuGMjRKdgDnHfgnigjUpXGXwqE4oGJFnG14/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/ZXBob3RvemluZS5j/b20vcmVzaXplL2Fy/dGljbGVzLzIzMDUw/L0dhbGF4eXMyMS5q/cGc_UlRVZEdrNWNY/eUpGQ2dzSlZBTnRk/eFUrY1ZSZEh4RllG/dzFHZXdrMFQxSllG/RXR6ZW41WWRndGhI/SHN2RVZ4Ug"
+                  class="card-img-top" alt="Smartphone">
+              </div>
+              <div class="card-body text-center">
+                <h4>Smartphone</h4>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-3 col-sm-5 col-12">
+          <a href="watch.html">
+            <div class="card" data-aos="zoom-in" data-aos-delay="100">
+              <div class="card-img">
+                <img
+                  src="https://imgs.search.brave.com/z9CowUcCi1teqoFrV7nhtCN1jSf5ANkfLdmL-0npEeE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly81Lmlt/aW1nLmNvbS9kYXRh/NS9TRUxMRVIvRGVm/YXVsdC8yMDIxLzEv/VVUvTksvWUsvMTE0/MDExOTgyL25ldy1w/cm9kdWN0LTUwMHg1/MDAuanBlZw"
+                  class="card-img-top" alt="Smartwatch">
+              </div>
+              <div class="card-body text-center">
+                <h4>Smartwatch</h4>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-3 col-sm-5 col-12">
+          <a href="tablet.html">
+            <div class="card" data-aos="zoom-in" data-aos-delay="100">
+              <div class="card-img">
+                <img
+                  src="https://imgs.search.brave.com/jIsLl31W8rPkb-FUsS6n7oahC1xQgKTGtAEclet5V7s/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0cv/MzEvaW1nMjEvVGFi/bGV0cy9CQVUvU0JC/Qi9Qb3dlcmhvdXNl/X1BpY2tzVGFibGV0/LUNMUF9CSUdCRVRf/Mi5fQ0I3OTQyNjk5/MTJfLnBuZw"
+                  class="card-img-top" alt="Tablets">
+                </div>
+                <div class="card-body text-center">
+                <h4>Tablet</h4>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-3 col-sm-5 col-12">
+          <a href="earbuds.html">
+            <div class="card" data-aos="zoom-in" data-aos-delay="100">
+              <div class="card-img">
+                <img
+                  src="https://imgs.search.brave.com/VNs1c0TVrk5odQyXqmIe05PmMJukVv1wSZin1p_EfZk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cmVsaWFuY2VkaWdp/dGFsLmluL21lZGlh/cy9TYW1zdW5nLUdh/bGF4eS1CdWRzMi1Q/cm8tRWFyYnVkcy1T/ZXQtNTkyMy00Nz9j/b250ZXh0PWJXRnpk/R1Z5ZkdsdFlXZGxj/M3c0TmpjNWZHbHRZ/V2RsTDJwd1pXZDhh/VzFoWjJWekwyZ3hP/QzlvWXpVdk9UZzRN/RE0wTnpNME5Ea3lO/aTVxY0dkOE4yUTBO/ekpoWXpVME9UaGlN/akV4WlRBek1qUTNZ/V05sTldFeE1URXpO/V0psTW1Nek56YzRZ/bVZpTkdFd09UQTJZ/MkV6WldFeVl6UTJa/VFU0WWpJME53"
+                  class="card-img-top" alt="Earbuds">
+              </div>
+              <div class="card-body text-center">
+                <h4>Earbuds</h4>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+      
+    <!-- Product Card Section End -->
   </section>
 
-
-
-
+  <!-- AOS JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 
   <!-- Bootstrap 5.3v JS CDN -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
