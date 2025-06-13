@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Store</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap 5.3v CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- AOS CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+
+    <!-- Main Css file -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Css file for Responsive design using media query -->
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <!-- Header Section Start -->
+
+    <header class="container-fluid bg-white shadow sticky-top top-0 p-0">
+        <!-- Navbar Section Start -->
+        <nav class="navbar navbar-expand-lg bg-body-white py-0 align-content-center" data-aos="fade-down">
+            <div class="container-fluid">
+                <a class="navbar-brand ms-5" href="#">Tech Store</a>
+                <button class="navbar-toggler px-2 border-black border-2" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav fw-bold ms-auto mb-lg-0 mb-sm-1">
+                        <li class="nav-item">
+                            <a class="nav-link px-2 py-1 text-dark" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-2 py-1 text-dark" href="mobile.html">Mobile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-2 py-1 text-dark" href="#">Watch</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-2 py-1 text-dark" href="#">Tablet</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link px-2 py-1 dropdown-toggle text-dark" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                More
+                            </a>
+                            <ul class="dropdown-menu p-0 mb-lg-0 mb-sm-2">
+                                <li><a class="dropdown-item border-bottom rounded-top" href="#">Mobile Accessories</a>
+                                </li>
+                                <li><a class="dropdown-item border-bottom" href="#">Watch Accessories</a></li>
+                                <li><a class="dropdown-item rounded-bottom" href="#">Tablet Accessories</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="icon d-flex align-items-center">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-user"></i>
+                    <i class="fa-solid fa-cart-plus"></i>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar Section End -->
+    </header>
+
+    <!-- Header Section End -->
+
+    <section class="container-fluid">
+        <div class="container ps-0 mt-3">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="fst-italic">Smartphones</h1>
+                </div>
+            </div>
+        </div>
+
+        <!-- Samsung Device Section Start -->
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Samsung</h2>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="card-sec p-2 h-100">
+                        <div class="card h-100">
+                            <div class="card-sec-img">
+                                <img src="https://imgs.search.brave.com/vzozVgEPB1HPvNmYZEjgKluLPxhQIOE9TyLZ1sqi0mQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9kYXJs/aW5ncmV0YWlsLmNv/bS9jZG4vc2hvcC9m/aWxlcy8xXzRfNGU2/NzU2ZGQtYTRmNS00/N2ZkLWI2YzctNWJl/NDhhMTMzY2UxXzYw/MHguanBnP3Y9MTcz/NzYxMzIzMg"
+                                    class="card-img-top" alt="Samsung Galaxy S25 5G">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Samsung Galaxy S25 5G</h5>
+                                <p class="card-text">Smartphone with Galaxy AI, Snapdragon 8 Elite, 50 MP Camera with
+                                    ProVisual Engine and 4000mAh Battery</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item fw-bold">₹80,999</li>
+                                <li class="list-group-item"><small><span
+                                            class="text-muted text-decoration-line-through">₹93499</span>
+                                        15%Off</small></li>
+                            </ul>
+                            <div class="card-body row gy-2 justify-content-around">
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Add to cart</a>
+
+                                </div>
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="card-sec p-2 h-100">
+                        <div class="card h-100">
+                            <div class="card-sec-img">
+                                <img src="https://m.media-amazon.com/images/I/71rs4Aer71L._SX679_.jpg"
+                                    class="card-img-top" alt="Samsung Galaxy S25 Ultra 5G">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Samsung Galaxy S25 Ultra 5G</h5>
+                                <p class="card-text">Smartphone with Galaxy AI, Snapdragon 8 Elite, 200 MP Camera with
+                                    ProVisual Engine and 5000mAh Battery</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item fw-bold">₹1,17,999</li>
+                                <li class="list-group-item"><small><span
+                                            class="text-muted text-decoration-line-through">₹1,29,999</span>
+                                        9%Off</small></li>
+                            </ul>
+                            <div class="card-body row gy-2 justify-content-around">
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Add to cart</a>
+
+                                </div>
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="card-sec p-2 h-100">
+                        <div class="card h-100">
+                            <div class="card-sec-img">
+                                <img src="https://m.media-amazon.com/images/I/51hnMXc8cUL._SX679_.jpg"
+                                    class="card-img-top" alt="Samsung Galaxy Z Fold6 5G">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Samsung Galaxy Z Fold6 5G</h5>
+                                <p class="card-text">SAI Smartphone (Silver Shadow, 12GB RAM, 256GB Storage)</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item fw-bold">₹1,27,000</li>
+                                <li class="list-group-item"><small><span
+                                            class="text-muted text-decoration-line-through">₹1,64,999</span>
+                                        23%Off</small></li>
+                            </ul>
+                            <div class="card-body row gy-2 justify-content-around">
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Add to cart</a>
+
+                                </div>
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="card-sec p-2 h-100">
+                        <div class="card h-100">
+                            <div class="card-sec-img">
+                                <img src="https://m.media-amazon.com/images/I/71oZ2oEeD4L._SX679_.jpg"
+                                    class="card-img-top" alt="Samsung Galaxy A55 5G">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Samsung Galaxy A55 5G</h5>
+                                <p class="card-text">Metal Frame | 50 MP Main Camera (OIS) | Nightography | IP67 </p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item fw-bold">₹27,999</li>
+                                <li class="list-group-item"><small><span
+                                            class="text-muted text-decoration-line-through">₹45,999</span>
+                                        39%Off</small></li>
+                            </ul>
+                            <div class="card-body row gy-2 justify-content-around">
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Add to cart</a>
+
+                                </div>
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Samsung Device Section End -->
+        <!-- Oneplus Device Section Start -->
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Oneplus</h2>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="card-sec p-2 h-100">
+                        <div class="card h-100">
+                            <div class="card-sec-img">
+                                <img src="https://image01-in.oneplus.net/media/202504/29/f7dd3061e62632c0f49d1f9c28ccc214.png?x-amz-process=image/format,webp/quality,Q_80"
+                                    class="card-img-top" alt="OnePlus 13">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">OnePlus 13</h5>
+                                <p class="card-text">Smarter with OnePlus AI | Lifetime Display Warranty</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item fw-bold">₹89,998</li>
+                                <li class="list-group-item"><small><span
+                                            class="text-muted text-decoration-line-through">₹92,999</span>
+                                        3%Off</small></li>
+                            </ul>
+                            <div class="card-body row gy-2 justify-content-around">
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Add to cart</a>
+
+                                </div>
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="card-sec p-2 h-100">
+                        <div class="card h-100">
+                            <div class="card-sec-img">
+                                <img src="https://m.media-amazon.com/images/I/61amb0CfMGL._SX679_.jpg"
+                                    class="card-img-top" alt="OnePlus 11 5G ">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">OnePlus 11 5G </h5>
+                                <p class="card-text">Eternal Green, 16GB RAM, 256GB Storage</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item fw-bold">₹59,499</li>
+                                <li class="list-group-item"><small><span
+                                            class="text-muted text-decoration-line-through">₹61,999</span>
+                                        4%Off</small></li>
+                            </ul>
+                            <div class="card-body row gy-2 justify-content-around">
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Add to cart</a>
+
+                                </div>
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="card-sec p-2 h-100">
+                        <div class="card h-100">
+                            <div class="card-sec-img">
+                                <img src="https://m.media-amazon.com/images/I/4133ecp7zKL._SX300_SY300_QL70_FMwebp_.jpg"
+                                    class="card-img-top" alt="OnePlus Nord 4 5G">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">OnePlus Nord 4 5G</h5>
+                                <p class="card-text">Obsidian Midnight, 8GB RAM, 256GB Storage | Lifetime Display Warranty | Qualcomm® Snapdragon™ 7 Plus Gen 3 </p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item fw-bold">₹29,498</li>
+                                <li class="list-group-item"><small><span
+                                            class="text-muted text-decoration-line-through">₹32,999</span>
+                                        11%Off</small></li>
+                            </ul>
+                            <div class="card-body row gy-2 justify-content-around">
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Add to cart</a>
+
+                                </div>
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="card-sec p-2 h-100">
+                        <div class="card h-100">
+                            <div class="card-sec-img">
+                                <img src="https://imgs.search.brave.com/lAShgjf1wdtWszBpM8qyBk2o0nnf8sR8AVMblktmpSg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bm90ZWJvb2tjaGVj/ay5jb20vZmlsZWFk/bWluL19wcm9jZXNz/ZWRfLzAvZi9jc21f/T25lUGx1c18xM3M0/XzRiM2ZjZDA2ZDMu/anBn"
+                                    class="card-img-top" alt="OnePlus 13s ">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">OnePlus 13s </h5>
+                                <p class="card-text"> Snapdragon® 8 Elite | Smarter with OnePlus AI | Lifetime Display Warranty </p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item fw-bold">₹54,999</li>
+                                <li class="list-group-item"><small><span
+                                            class="text-muted text-decoration-line-through">₹57,999</span>
+                                        5%Off</small></li>
+                            </ul>
+                            <div class="card-body row gy-2 justify-content-around">
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Add to cart</a>
+
+                                </div>
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Oneplus Device Section End -->
+        <!-- Iphone Device Section Start -->
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Iphone</h2>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="card-sec p-2 h-100">
+                        <div class="card h-100">
+                            <div class="card-sec-img">
+                                <img src="https://m.media-amazon.com/images/I/61JvFLHZ6NL._SX679_.jpg"
+                                    class="card-img-top" alt="IPhone 16 Pro">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">IPhone 16 Pro</h5>
+                                <p class="card-text">28 GB: 5G Mobile Phone with Camera Control, 4K 120 fps Dolby Vision and a Huge Leap in Battery Life.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item fw-bold">₹1,11,900</li>
+                                <li class="list-group-item"><small><span
+                                            class="text-muted text-decoration-line-through">₹1,19,900</span>
+                                        7%Off</small></li>
+                            </ul>
+                            <div class="card-body row gy-2 justify-content-around">
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Add to cart</a>
+
+                                </div>
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="card-sec p-2 h-100">
+                        <div class="card h-100">
+                            <div class="card-sec-img">
+                                <img src="https://m.media-amazon.com/images/I/71ZP6U9sWTL._SX679_.jpg"
+                                    class="card-img-top" alt="Apple IPhone 15 Plus">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Apple IPhone 15 Plus</h5>
+                                <p class="card-text">DYNAMIC ISLAND | INNOVATIVE DESIGN | 48MP MAIN CAMERA WITH 2X TELEPHOTO</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item fw-bold">₹72,900</li>
+                                <li class="list-group-item"><small><span
+                                            class="text-muted text-decoration-line-through">₹89,900</span>
+                                        19%Off</small></li>
+                            </ul>
+                            <div class="card-body row gy-2 justify-content-around">
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Add to cart</a>
+
+                                </div>
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="card-sec p-2 h-100">
+                        <div class="card h-100">
+                            <div class="card-sec-img">
+                                <img src="https://m.media-amazon.com/images/I/712SuRmHG4L._SX679_.jpg"
+                                    class="card-img-top" alt="IPhone 16">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">IPhone 16 </h5>
+                                <p class="card-text">128 GB: 5G Mobile Phone with Camera Control, A18 Chip and a Big Boost in Battery Life. Works with AirPods; Ultramarine</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item fw-bold">₹73,500</li>
+                                <li class="list-group-item"><small><span
+                                            class="text-muted text-decoration-line-through">₹79,990</span>
+                                        8%Off</small></li>
+                            </ul>
+                            <div class="card-body row gy-2 justify-content-around">
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Add to cart</a>
+
+                                </div>
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="card-sec p-2 h-100">
+                        <div class="card h-100">
+                            <div class="card-sec-img">
+                                <img src="https://m.media-amazon.com/images/I/61-r9zOKBCL._SX679_.jpg"
+                                    class="card-img-top" alt="Apple IPhone 13">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Apple IPhone 13 </h5>
+                                <p class="card-text">Advanced dual-camera system with 12MP Wide and Ultra Wide cameras; Photographic Styles, Smart HDR 4, Night mode, 4K Dolby Vision HDR recording</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item fw-bold">₹60,900</li>
+                                <li class="list-group-item"><small><span
+                                            class="text-muted text-decoration-line-through">₹89,600</span>
+                                        32%Off</small></li>
+                            </ul>
+                            <div class="card-body row gy-2 justify-content-around">
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Add to cart</a>
+
+                                </div>
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Iphone Device Section End -->
+        <!-- Google Device Section Start -->
+        <div class="container my-4">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Google</h2>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="card-sec p-2 h-100">
+                        <div class="card h-100">
+                            <div class="card-sec-img">
+                                <img src="https://m.media-amazon.com/images/I/51Ibtg1KESL._SX679_.jpg"
+                                    class="card-img-top" alt="Google Pixel 9">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Google Pixel 9 </h5>
+                                <p class="card-text">Immersive Display: Features a 6.3-inch OLED screen with 120Hz refresh rate, HDR support</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item fw-bold">₹74,999</li>
+                                <li class="list-group-item"><small><span
+                                            class="text-muted text-decoration-line-through">₹79,999</span>
+                                        6%Off</small></li>
+                            </ul>
+                            <div class="card-body row gy-2 justify-content-around">
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Add to cart</a>
+
+                                </div>
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="card-sec p-2 h-100">
+                        <div class="card h-100">
+                            <div class="card-sec-img">
+                                <img src="https://m.media-amazon.com/images/I/71l5wYFiuTL._SX522_.jpg"
+                                    class="card-img-top" alt="Google Pixel 7 5G">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Google Pixel 7 5G </h5>
+                                <p class="card-text">Display Type: Amoled; Human Interface Input: Touch Screen</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item fw-bold">₹30,999</li>
+                                <li class="list-group-item"><small><span
+                                            class="text-muted text-decoration-line-through">₹59,999</span>
+                                        48%Off</small></li>
+                            </ul>
+                            <div class="card-body row gy-2 justify-content-around">
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Add to cart</a>
+
+                                </div>
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="card-sec p-2 h-100">
+                        <div class="card h-100">
+                            <div class="card-sec-img">
+                                <img src="https://m.media-amazon.com/images/I/71MDT0OqJnL._AC_SX679_.jpg"
+                                    class="card-img-top" alt="Google Pixel Fold">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Google Pixel Fold </h5>
+                                <p class="card-text">Unlocked Android 5G Smartphone with Telephoto Lens and Ultrawide Lens - Foldable Display - 24-Hour Battery - Obsidian - 256 GB</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item fw-bold">₹1,62,999</li>
+                                <li class="list-group-item"><small><span
+                                            class="text-muted text-decoration-line-through">₹1,72,999</span>
+                                        6%Off</small></li>
+                            </ul>
+                            <div class="card-body row gy-2 justify-content-around">
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Add to cart</a>
+
+                                </div>
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="card-sec p-2 h-100">
+                        <div class="card h-100">
+                            <div class="card-sec-img">
+                                <img src="https://m.media-amazon.com/images/I/71n1Bn04lJL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+                                    class="card-img-top" alt="Google Pixel 8a">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Google Pixel 8a </h5>
+                                <p class="card-text">Unlocked Android Phone with Google AI, Advanced Pixel Camera and 24-Hour Battery</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item fw-bold">₹34,999</li>
+                                <li class="list-group-item"><small><span
+                                            class="text-muted text-decoration-line-through">₹49,999</span>
+                                        30%Off</small></li>
+                            </ul>
+                            <div class="card-body row gy-2 justify-content-around">
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Add to cart</a>
+
+                                </div>
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- Samsung Device Section End -->
+    </section>
+
+
+    <!-- Footer Section Start -->
+    <footer class="container-fluid bg-body-secondary p-3 pb-0">
+        <div class="container">
+            <div class="row justify-content-around">
+                <div class="col-lg-3 col-sm-5 col-12">
+                    <div class="p-lg-3 p-1">
+                        <h3>Connect with us</h3>
+                        <ul class="p-0">
+                            <li class="my-lg-3 my-1"><a href="#">Facebook</a></li>
+                            <li class="my-lg-3 my-1"><a href="#">Instagram</a></li>
+                            <li class="my-lg-3 my-1"><a href="#">Twitter</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-5 col-12">
+                    <div class="p-lg-3 p-0">
+                        <h3>Contact Us</h3>
+                        <ul class="p-0">
+                            <li class="my-lg-3 my-1"><a href="mailto:techstore@gmail.com">Email:techstore@gmail.com</a>
+                            </li>
+                            <li class="my-lg-3 my-1"><a href="tel:+91 9856324786">Phone:+91 9856324786</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-5 col-12">
+                    <div class="p-lg-3 p-0">
+                        <h3>Quick Links</h3>
+                        <ul class="p-0">
+                            <li class="my-lg-3 my-1"><a href="#"></a>Home</li>
+                            <li class="my-lg-3 my-1"><a href="mobile.html">Mobile</a></li>
+                            <li class="my-lg-3 my-1"><a href="#"></a>Watch</li>
+                            <li class="my-lg-3 my-1"><a href="#"></a>Tablet</li>
+                            <li class="my-lg-3 my-1"><a href="#"></a>Mobile Accessories</li>
+                            <li class="my-lg-3 my-1"><a href="#"></a>Watch Accessories</li>
+                            <li class="my-lg-3 my-1"><a href="#"></a>Tablet Accessories</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-5 col-12">
+                    <div class="p-lg-3 p-0">
+                        <h3>Information</h3>
+                        <ul class="p-0">
+                            <li class="my-lg-3 my-1"><a href="#">Track Your Order</a></li>
+                            <li class="my-lg-3 my-1"><a href="#">Return Policies</a></li>
+                            <li class="my-lg-3 my-1"><a href="#">Shipping + Delivery</a></li>
+                            <li class="my-lg-3 my-1"><a href="#">FAQS</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section Start -->
+
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+    <!-- Bootstrap 5.3v JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js"
+        integrity="sha384-RuyvpeZCxMJCqVUGFI0Do1mQrods/hhxYlcVfGPOfQtPJh0JCw12tUAZ/Mv10S7D"
+        crossorigin="anonymous"></script>
+
+    <!-- Main JS file -->
+    <script src="js/script.js"></script>
+
+</body>
+
+
+</html>
