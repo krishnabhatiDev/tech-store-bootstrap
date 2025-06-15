@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Store</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap 5.3v CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- AOS CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+
+    <!-- Main Css file -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Css file for Responsive design using media query -->
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <!-- Header Section Start -->
+
+    <header class="container-fluid bg-white shadow sticky-top top-0 p-0">
+        <!-- Navbar Section Start -->
+        <nav class="navbar navbar-expand-lg bg-body-white py-0 align-content-center" data-aos="fade-down">
+            <div class="container-fluid">
+                <a class="navbar-brand ms-5" href="index.html">Tech Store</a>
+                <button class="navbar-toggler px-2 border-black border-2" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav fw-bold ms-auto mb-lg-0 mb-sm-1">
+                        <li class="nav-item">
+                            <a class="nav-link px-2 py-1 text-dark" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-2 py-1 text-dark" href="mobile.html">Mobile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-2 py-1 text-dark" href="#">Watch</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-2 py-1 text-dark" href="tablet.html">Tablet</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link px-2 py-1 dropdown-toggle text-dark" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                More
+                            </a>
+                            <ul class="dropdown-menu p-0 mb-lg-0 mb-sm-2">
+                                <li><a class="dropdown-item border-bottom rounded-top" href="#">Mobile Accessories</a>
+                                </li>
+                                <li><a class="dropdown-item border-bottom" href="#">Watch Accessories</a></li>
+                                <li><a class="dropdown-item rounded-bottom" href="#">Tablet Accessories</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="icon d-flex align-items-center">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-user"></i>
+                    <i class="fa-solid fa-cart-plus"></i>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar Section End -->
+    </header>
+
+    <!-- Header Section End -->
+
+    <section class="container-fluid">
+        <div class="container ps-0 mt-3">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="fst-italic">Smartwatches</h1>
+                </div>
+            </div>
+        </div>
+
+        <!-- Samsung Device Section Start -->
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Samsung</h2>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="card-sec p-2 h-100">
+                        <div class="card h-100">
+                            <div class="card-sec-img">
+                                <img src="https://images.samsung.com/is/image/samsung/p6pim/in/2407/gallery/in-galaxy-watch7-l310-sm-l310nzsains-thumb-542366981?$216_216_PNG$"
+                                    class="card-img-top" alt="Galaxy Watch 7">
+                            </div>
+                            <div class="card-body h-75">
+                                <h5 class="card-title fw-bold">Galaxy Watch 7</h5>
+                                <p class="card-text">Elevate your style with the Galaxy Watch7.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item fw-bold">₹32,999</li>
+                                <li class="list-group-item"><small><span
+                                            class="text-muted text-decoration-line-through">₹35,999</span>
+                                        Save ₹3000</small></li>
+                            </ul>
+                            <div class="card-body row gy-2 justify-content-around">
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Add to cart</a>
+
+                                </div>
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="card-sec p-2 h-100">
+                        <div class="card h-100">
+                            <div class="card-sec-img">
+                                <img src="https://images.samsung.com/is/image/samsung/p6pim/in/2407/gallery/in-galaxy-watch-ultra-l705-sm-l705fdaains-thumb-542169128?$216_216_PNG$"
+                                    class="card-img-top" alt="Galaxy Watch Ultra">
+                            </div>
+                            <div class="card-body h-75">
+                                <h5 class="card-title fw-bold">Galaxy Watch Ultra</h5>
+                                <p class="card-text">Built to push boundaries withstands up to 55°C heat.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item fw-bold">₹59,999</li>
+                                <li class="list-group-item"><small><span
+                                            class="text-muted text-decoration-line-through">₹69,999</span>
+                                        Save ₹10,000</small></li>
+                            </ul>
+                            <div class="card-body row gy-2 justify-content-around">
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Add to cart</a>
+
+                                </div>
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="card-sec p-2 h-100">
+                        <div class="card h-100">
+                            <div class="card-sec-img">
+                                <img src="https://images.samsung.com/is/image/samsung/p6pim/in/sm-r861nidains/gallery/in-galaxy-watch-fe-r861-sm-r861nidains-thumb-542822645?$216_216_PNG$"
+                                    class="card-img-top" alt="Galaxy Watch FE">
+                            </div>
+                            <div class="card-body h-75">
+                                <h5 class="card-title fw-bold">Galaxy Watch FE</h5>
+                                <p class="card-text">Galaxy Watch FE is designed and perfected to keep you company on your journey</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item fw-bold">₹1,27,000</li>
+                                <li class="list-group-item"><small><span
+                                            class="text-muted text-decoration-line-through">₹11,999</span>
+                                        Save ₹18,000</small></li>
+                            </ul>
+                            <div class="card-body row gy-2 justify-content-around">
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Add to cart</a>
+
+                                </div>
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="card-sec p-2 h-100">
+                        <div class="card h-100">
+                            <div class="card-sec-img">
+                                <img src="https://images.samsung.com/is/image/samsung/p6pim/in/2307/gallery/in-galaxy-watch6-classic-r965-469944-sm-r965fzsains-thumb-537406436?$216_216_PNG$"
+                                    class="card-img-top" alt="Samsung Galaxy A55 5G">
+                            </div>
+                            <div class="card-body h-75">
+                                <h5 class="card-title fw-bold">Samsung Galaxy A55 5G</h5>
+                                <p class="card-text">Start your everyday wellness journey with a refined classic</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item fw-bold">₹24,999</li>
+                                <li class="list-group-item"><small><span
+                                            class="text-muted text-decoration-line-through">₹50,999</span>
+                                        Save ₹26,000</small></li>
+                            </ul>
+                            <div class="card-body row gy-2 justify-content-around">
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Add to cart</a>
+
+                                </div>
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Samsung Device Section End -->
+        <!-- Oneplus Device Section Start -->
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Oneplus</h2>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="card-sec p-2 h-100">
+                        <div class="card h-100">
+                            <div class="card-sec-img">
+                                <img src="https://image01-in.oneplus.net/ebp/202402/21/1-m00-52-99-cpgm7mxvqb2apuvaaafa4m3n8be890.png?x-amz-process=image/format,webp/quality,Q_80"
+                                    class="card-img-top" alt="OnePlus Watch 2">
+                            </div>
+                            <div class="card-body h-75">
+                                <h5 class="card-title fw-bold">OnePlus Watch 2</h5>
+                                <p class="card-text">Wear OS 4, Snapdragon W5 Chipset & Up to 100 hours battery Smartwatch</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item fw-bold">₹20,999</li>
+                                <li class="list-group-item"><small><span
+                                            class="text-muted text-decoration-line-through">₹27,999</span>
+                                        Save ₹7000</small></li>
+                            </ul>
+                            <div class="card-body row gy-2 justify-content-around">
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Add to cart</a>
+
+                                </div>
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="card-sec p-2 h-100">
+                        <div class="card h-100">
+                            <div class="card-sec-img">
+                                <img src="https://image01-in.oneplus.net/media/202407/10/a24b06f643a53c9acb934fb9912b8055.png?x-amz-process=image/format,webp/quality,Q_80"
+                                    class="card-img-top" alt="OnePlus Watch 2R ">
+                            </div>
+                            <div class="card-body h-75">
+                                <h5 class="card-title fw-bold">OnePlus Watch 2R </h5>
+                                <p class="card-text">Wear OS 4, Snapdragon W5 Chipset & Upto 100 hours battery life Smartwatch  </p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item fw-bold">₹17,999</li>
+                                <li class="list-group-item"><small><span
+                                            class="text-muted text-decoration-line-through">₹20,999</span>
+                                        Save ₹2000</small></li>
+                            </ul>
+                            <div class="card-body row gy-2 justify-content-around">
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Add to cart</a>
+
+                                </div>
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="card-sec p-2 h-100">
+                        <div class="card h-100">
+                            <div class="card-sec-img">
+                                <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/z/x/s/-original-imagycnnk4qw6yhy.jpeg?q=70"
+                                    class="card-img-top" alt="OnePlus Watch 2">
+                            </div>
+                            <div class="card-body h-75">
+                                <h5 class="card-title fw-bold">OnePlus Watch 2</h5>
+                                <p class="card-text">Wear OS 4, Snapdragon W5 Chipset & Up to 100 hours battery Smartwatch</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item fw-bold">₹20,999</li>
+                                <li class="list-group-item"><small><span
+                                            class="text-muted text-decoration-line-through">₹27,999</span>
+                                        Save ₹7000</small></li>
+                            </ul>
+                            <div class="card-body row gy-2 justify-content-around">
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Add to cart</a>
+
+                                </div>
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="card-sec p-2 h-100">
+                        <div class="card h-100">
+                            <div class="card-sec-img">
+                                <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/x/x/j/-original-imah2tt8zn6bzkgk.jpeg?q=70"
+                                    class="card-img-top" alt="OnePlus Watch 2R ">
+                            </div>
+                            <div class="card-body h-75">
+                                <h5 class="card-title fw-bold">OnePlus Watch 2R </h5>
+                                <p class="card-text">Wear OS 4, Snapdragon W5 Chipset & Upto 100 hours battery life Smartwatch  </p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item fw-bold">₹17,999</li>
+                                <li class="list-group-item"><small><span
+                                            class="text-muted text-decoration-line-through">₹20,999</span>
+                                        Save ₹2000</small></li>
+                            </ul>
+                            <div class="card-body row gy-2 justify-content-around">
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Add to cart</a>
+
+                                </div>
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Oneplus Device Section End -->
+        <!-- Iphone Device Section Start -->
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Iphone</h2>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="card-sec p-2 h-100">
+                        <div class="card h-100">
+                            <div class="card-sec-img">
+                                <img src="https://www.apple.com/v/watch/br/images/overview/select/product_se__c83w8hz9gre6_large_2x.png"
+                                    class="card-img-top" alt="Apple Watch SE">
+                            </div>
+                            <div class="card-body h-75">
+                                <h5 class="card-title fw-bold">Apple Watch SE</h5>
+                                <p class="card-text">All the essentials. Light on price.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item fw-bold">₹24,900</li>
+                                <li class="list-group-item"><small><span
+                                            class="text-muted text-decoration-line-through">₹32,900</span>
+                                        Save ₹8000</small></li>
+                            </ul>
+                            <div class="card-body row gy-2 justify-content-around">
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Add to cart</a>
+
+                                </div>
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="card-sec p-2 h-100">
+                        <div class="card h-100">
+                            <div class="card-sec-img">
+                                <img src="https://www.apple.com/v/watch/br/images/overview/select/product_s10__c724044usymq_large_2x.png"
+                                    class="card-img-top" alt="Apple Watch Series 10">
+                            </div>
+                            <div class="card-body h-75">
+                                <h5 class="card-title fw-bold">Apple Watch Series 10</h5>
+                                <p class="card-text">Thinnest. Biggest display. Advanced health features.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item fw-bold">₹46,900</li>
+                                <li class="list-group-item"><small><span
+                                            class="text-muted text-decoration-line-through">₹59,900</span>
+                                        Save ₹13000</small></li>
+                            </ul>
+                            <div class="card-body row gy-2 justify-content-around">
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Add to cart</a>
+
+                                </div>
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="card-sec p-2 h-100">
+                        <div class="card h-100">
+                            <div class="card-sec-img">
+                                <img src="https://www.apple.com/in/watch/images/overview/select/product_u2__hedpiz396nue_large_2x.png"
+                                    class="card-img-top" alt="Apple Watch Ultra 2">
+                            </div>
+                            <div class="card-body h-75">
+                                <h5 class="card-title fw-bold">Apple Watch Ultra 2 </h5>
+                                <p class="card-text">The ultimate sports and adventure watch.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item fw-bold">₹89,900</li>
+                                <li class="list-group-item"><small><span
+                                            class="text-muted text-decoration-line-through">₹93,990</span>
+                                        Save ₹4000</small></li>
+                            </ul>
+                            <div class="card-body row gy-2 justify-content-around">
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Add to cart</a>
+
+                                </div>
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="card-sec p-2 h-100">
+                        <div class="card h-100">
+                            <div class="card-sec-img">
+                                <img src="images/watch11.jpg"
+                                    class="card-img-top" alt="watchOS 11">
+                            </div>
+                            <div class="card-body h-75">
+                                <h5 class="card-title fw-bold">watchOS 11 </h5>
+                                <p class="card-text">See how workouts may impact your body over time. And discover new features that make Apple Watch undeniably yours. That’s watchOS 11.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item fw-bold">₹34,899</li>
+                                <li class="list-group-item"><small><span
+                                            class="text-muted text-decoration-line-through">₹40,899</span>
+                                        Save ₹6000</small></li>
+                            </ul>
+                            <div class="card-body row gy-2 justify-content-around">
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Add to cart</a>
+
+                                </div>
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Iphone Device Section End -->
+        <!-- Google Device Section Start -->
+        <div class="container my-4">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Google</h2>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="card-sec p-2 h-100">
+                        <div class="card h-100">
+                            <div class="card-sec-img">
+                                <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/3/0/t/-original-imagxp8twmkchwrd.jpeg?q=70"
+                                    class="card-img-top" alt="Google Pixel Watch 2">
+                            </div>
+                            <div class="card-body h-75">
+                                <h5 class="card-title fw-bold">Google Pixel Watch 2 </h5>
+                                <p class="card-text">Meet the Google Pixel Watch 2, engineered by Google with the best of Fitbit.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item fw-bold">₹35,900</li>
+                                <li class="list-group-item"><small><span
+                                            class="text-muted text-decoration-line-through">₹39,900</span>
+                                        Save ₹4000</small></li>
+                            </ul>
+                            <div class="card-body row gy-2 justify-content-around">
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Add to cart</a>
+
+                                </div>
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="card-sec p-2 h-100">
+                        <div class="card h-100">
+                            <div class="card-sec-img">
+                                <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/n/4/o/41-gg3hh-android-google-no-original-imah3wy6fzc7kadz.jpeg?q=70"
+                                    class="card-img-top" alt="Google Pixel Watch 3">
+                            </div>
+                            <div class="card-body h-75">
+                                <h5 class="card-title fw-bold">Google Pixel Watch 3 </h5>
+                                <p class="card-text">AMOLED LTPO display, Advanced motion sensing Smartwatch</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item fw-bold">₹39,999</li>
+                                <li class="list-group-item"><small><span
+                                            class="text-muted text-decoration-line-through">₹42,999</span>
+                                        Save ₹3000</small></li>
+                            </ul>
+                            <div class="card-body row gy-2 justify-content-around">
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Add to cart</a>
+
+                                </div>
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="card-sec p-2 h-100">
+                        <div class="card h-100">
+                            <div class="card-sec-img">
+                                <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/1/x/p/41-ga05030-gb-android-google-no-original-imagtf3qt8ysncpm.jpeg?q=70"
+                                    class="card-img-top" alt="Google Pixel Watch 2">
+                            </div>
+                            <div class="card-body h-75">
+                                <h5 class="card-title fw-bold">Google Pixel Watch 2 </h5>
+                                <p class="card-text">Meet the Google Pixel Watch 2, engineered by Google with the best of Fitbit.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item fw-bold">₹35,900</li>
+                                <li class="list-group-item"><small><span
+                                            class="text-muted text-decoration-line-through">₹39,900</span>
+                                        Save ₹4000</small></li>
+                            </ul>
+                            <div class="card-body row gy-2 justify-content-around">
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Add to cart</a>
+
+                                </div>
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="card-sec p-2 h-100">
+                        <div class="card h-100">
+                            <div class="card-sec-img">
+                                <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/8/l/k/-original-imah3nuekzhvcny7.jpeg?q=70"
+                                    class="card-img-top" alt="Google Pixel Watch 3">
+                            </div>
+                            <div class="card-body h-75">
+                                <h5 class="card-title fw-bold">Google Pixel Watch 3 </h5>
+                                <p class="card-text">AMOLED LTPO display, Advanced motion sensing Smartwatch</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item fw-bold">₹39,999</li>
+                                <li class="list-group-item"><small><span
+                                            class="text-muted text-decoration-line-through">₹42,999</span>
+                                        Save ₹3000</small></li>
+                            </ul>
+                            <div class="card-body row gy-2 justify-content-around">
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Add to cart</a>
+
+                                </div>
+                                <div class="col-sm-6 col-12">
+                                    <a class="btn btn-primary w-100" href="#" role="button">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- Google Device Section End -->
+    </section>
+
+
+    <!-- Footer Section Start -->
+    <footer class="container-fluid bg-body-secondary p-3 pb-0">
+        <div class="container">
+            <div class="row justify-content-around">
+                <div class="col-lg-3 col-sm-5 col-12">
+                    <div class="p-lg-3 p-1">
+                        <h3>Connect with us</h3>
+                        <ul class="p-0">
+                            <li class="my-lg-3 my-1"><a href="#">Facebook</a></li>
+                            <li class="my-lg-3 my-1"><a href="#">Instagram</a></li>
+                            <li class="my-lg-3 my-1"><a href="#">Twitter</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-5 col-12">
+                    <div class="p-lg-3 p-0">
+                        <h3>Contact Us</h3>
+                        <ul class="p-0">
+                            <li class="my-lg-3 my-1"><a href="mailto:techstore@gmail.com">Email:techstore@gmail.com</a>
+                            </li>
+                            <li class="my-lg-3 my-1"><a href="tel:+91 9856324786">Phone:+91 9856324786</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-5 col-12">
+                    <div class="p-lg-3 p-0">
+                        <h3>Quick Links</h3>
+                        <ul class="p-0">
+                            <li class="my-lg-3 my-1"><a href="index.html">Home</a></li>
+                            <li class="my-lg-3 my-1"><a href="mobile.html">Mobile</a></li>
+                            <li class="my-lg-3 my-1"><a href="#">Watch</a></li>
+                            <li class="my-lg-3 my-1"><a href="tablet.html">Tablet</a></li>
+                            <li class="my-lg-3 my-1"><a href="#">Mobile Accessories</a></li>
+                            <li class="my-lg-3 my-1"><a href="#">Watch Accessories</a></li>
+                            <li class="my-lg-3 my-1"><a href="#">Tablet Accessories</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-5 col-12">
+                    <div class="p-lg-3 p-0">
+                        <h3>Information</h3>
+                        <ul class="p-0">
+                            <li class="my-lg-3 my-1"><a href="#">Track Your Order</a></li>
+                            <li class="my-lg-3 my-1"><a href="#">Return Policies</a></li>
+                            <li class="my-lg-3 my-1"><a href="#">Shipping + Delivery</a></li>
+                            <li class="my-lg-3 my-1"><a href="#">FAQS</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section Start -->
+
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+    <!-- Bootstrap 5.3v JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js"
+        integrity="sha384-RuyvpeZCxMJCqVUGFI0Do1mQrods/hhxYlcVfGPOfQtPJh0JCw12tUAZ/Mv10S7D"
+        crossorigin="anonymous"></script>
+
+    <!-- Main JS file -->
+    <script src="js/script.js"></script>
+
+</body>
+
+
+</html>
